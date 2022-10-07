@@ -103,6 +103,30 @@ section p{
     line-height: 2em;
 }
 
+.g-part1{
+    display: flex;
+    margin-bottom: 100px;
+
+}
+
+
+.g-part1 .one {
+    margin: 10px;
+}
+
+.one .t-1{
+    width: 256px;
+    background-color: var(--DarkGray);
+    /* position: absolute;
+    bottom: 5px; */
+    
+}
+
+.one .t-1 h2{
+    margin: 20px;
+    color: red;
+}
+
 section .section-two {
     margin-left: 120px;
     
