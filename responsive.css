@@ -1,0 +1,54 @@
+/* mobile responsiveness */
+
+@media screen and (max-width: 750px){
+    
+ /* header */
+
+ header{
+    background-image: url(./imgs/mobile/image-hero.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 70vh;
+ }
+
+ ul{
+    display: none;
+ }
+
+ .logo{
+    margin-left: 50px;
+ }
+
+ .nav-toggle{
+    margin-right: 4%;
+    display: contents;
+ }
+ 
+ .header-box{
+    width: 100%;
+    margin-left: 80px;
+    margin-top: 3%;
+ }
+ 
+ .header-box h1{
+    max-width: 60%;
+    height: 30vh;
+    color: var(--White);
+    font-size: 30px;
+    border: 1px solid var(--White);
+    padding: 30px 30px;
+    text-transform: uppercase;
+    margin-right: 10%;
+    padding-right: 30px;
+}
+section .section-one{
+   width: 100%;
+   margin-bottom: 100px;
+   display: block;
+}
+
+.section-one .text-part h1 p{
+   max-width: 80%;
+   font-size: 14px;
+}
+}

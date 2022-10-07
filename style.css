@@ -105,7 +105,7 @@ section p{
 
 .g-part1{
     display: flex;
-    margin-bottom: 100px;
+    margin-bottom: 15px;
 
 }
 
@@ -116,15 +116,37 @@ section p{
 
 .one .t-1{
     width: 256px;
-    background-color: var(--DarkGray);
-    /* position: absolute;
-    bottom: 5px; */
+    position: absolute;
+    top: 1799px;
     
 }
 
 .one .t-1 h2{
     margin: 20px;
-    color: red;
+    color: white;
+}
+
+.g-part2{
+    display: flex;
+    color: var(--White);
+    font-weight: 20px;
+    margin-bottom: 150px;
+}
+
+.g-part2 .two {
+    margin: 10px;
+}
+
+.two .t-2{
+    width: 256px;
+    position: absolute;
+    top: 2260px;
+    
+}
+
+.two .t-2 h2{
+    margin: 20px;
+    color: white;
 }
 
 section .section-two {
@@ -149,31 +171,44 @@ section .section-two button{
 
 footer{
     background-color: var(--Black);
+    height: 30vh;
 }
 
 footer .copy{
     color: var(--DarkGray);
 }
 
+footer .footer{
+    display: flex;
+    align-items: center;
+}
 
+.footer .left-part{
+    width: 50%;
+    font-size: 12px;
+    word-spacing: 20px;
+    margin-left: 5%;
+    margin-top: 30px;
+}
 
-/* Desktop responsiveness */
+.footer .left-part .f-logo{
+    width: 20%;
+    margin-left: 9.5%;
+}
 
-@media screen and (max-width: 720px){
-    
-    /* header */
+.footer .left-part ul{
+    margin-left: 1.5%;
+}
 
-    header{
-        background-image: url(./imgs/mobile/image-hero.jpg);
-    }
+.left-part ul li:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
 
-    ul{
-        display: none;
-    }
-
-    .nav-toggle{
-        display: contents;
-    }
-    
-
+.footer .right-part{
+    width: 30%;
+    font-size: 12px;
+    margin-top: 40px;
+    margin-left: 30%;
+    margin-right: 50px;
 }
